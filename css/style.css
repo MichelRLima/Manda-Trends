@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container-principal {
+    margin: 3em auto;
+    width: 50em;
+    height: 81em;
+    background-color: #f2f2f2;
+}
+
+.container-secundario {
+    width: 93%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    width: 100%;
+    height: 10em;
+    margin-top: 2em;
+    background: linear-gradient(to left, #e72357, #ea5235);
+    position: relative;
+}
+
+.bola-header {
+    position: absolute;
+    top: 1.4em;
+    left: -1.1em;
+
+}
+
+.trends-header {
+    position: absolute;
+    top: 2em;
+    left: 2.4em;
+}
+
+.bolinhas-header {
+    position: absolute;
+    top: 7.4em;
+    left: 14em;
+}
+
+.setinha-header {
+    position: absolute;
+    left: 20em;
+    width: 7em;
+}
+
+.mulher-header {
+    position: absolute;
+    top: 3.5em;
+    left: 22em;
+    width: 10em;
+    z-index: 1;
+
+}
+
+.texto-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 10em;
+    margin-left: auto;
+    text-align: right;
+    margin-right: 2em;
+
+
+}
+
+.triangulo-texto {
+    position: absolute;
+    top: -1em;
+    right: -2em;
+
+}
+
+.texto {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+    color: white;
+
+
+}
+
+.texto-header span {
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 0.8em;
+
+}
+
+.zizzag {
+    position: absolute;
+    top: 6em;
+    right: -1.6em;
+}
+
+.principal {
+    margin-top: 1.5em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+.img-principal {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+.principal .imagem1 {
+    width: 92%;
+}
+
+.img-principal h3 {
+    font-size: 1.75em;
+    width: 90%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.img-principal p {
+    font-size: 1.1em;
+    width: 90%;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+    color: #74787a;
+    margin: 0.5em 0;
+
+}
+
+.img-principal span {
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #b2b2b2;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+.img-principal .linha1 {
+    margin-right: auto;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: -0.3em;
+}
+
+.secundario {
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.secundario .img2,
+.img3 {
+
+    width: 48%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.secundario .img2 {
+    margin-right: auto;
+}
+
+.secundario .w {
+    width: 100%;
+    height: 60%;
+
+}
+
+.secundario .b {
+    width: 100%;
+    height: 60%;
+
+}
+
+.secundario .linha2,
+.linha3 {
+    margin-right: auto;
+    margin-left: 0.4em;
+    margin-bottom: 2em;
+    margin-top: -0.3em;
+}
+
+.secundario h3 {
+    margin-top: 0.3em;
+    font-size: 1.4em;
+    width: 90%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 0.4em;
+    margin-bottom: 0.5em;
+
+}
+
+.secundario span {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #b2b2b2;
+    font-size: 0.8em;
+    margin-left: 0.6em;
+
+}
+
+
+
+.logo-footer {
+    width: 93%;
+    height: 7em;
+    background-color: #fc4c02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.texto-footer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto-footer p {
+    margin-top: 2em;
+    color: #646869;
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+@media (max-width: 1080px) {}
