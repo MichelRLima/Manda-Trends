@@ -35,6 +35,8 @@
     top: 1.4em;
     left: -1.1em;
 
+
+
 }
 
 .trends-header {
@@ -155,20 +157,28 @@
 
 }
 
-.img-principal span {
+
+.img-principal .fonte {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+.img-principal span {
+    margin-top: 0.7em;
+    padding-left: 0.5em;
     font-family: Arial, sans-serif;
     font-style: italic;
     color: #b2b2b2;
     font-size: 0.8em;
-    margin-top: 0.5em;
+
 }
 
 .img-principal .linha1 {
-    margin-right: auto;
-    margin-left: 2em;
-    margin-bottom: 2em;
-    margin-top: -0.3em;
+    width: 15em;
 }
 
 .secundario {
@@ -205,12 +215,16 @@
 
 }
 
+.secundario .fonte {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .secundario .linha2,
 .linha3 {
-    margin-right: auto;
-    margin-left: 0.4em;
-    margin-bottom: 2em;
-    margin-top: -0.3em;
+    width: 15em;
 }
 
 .secundario h3 {
@@ -266,4 +280,135 @@
     text-align: center;
 }
 
-@media (max-width: 1080px) {}
+a {
+    color: #646869;
+}
+
+@media (max-width: 1080px) {
+
+    .container-principal {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .header {
+        height: 10em;
+
+    }
+
+    .mulher-header {
+        left: 50%;
+
+    }
+
+    .setinha-header {
+        left: 47%;
+    }
+
+    .img-principal h3 {
+        font-size: 3vw;
+    }
+
+    .img-principal p {
+        font-size: 2vw;
+    }
+
+    .img-principal span {
+        font-size: 1.5vw;
+    }
+
+    .secundario h3 {
+        font-size: 2vw;
+    }
+
+    .secundario span {
+        font-size: 1.5vw;
+    }
+
+    .texto-footer {
+        padding-bottom: 1em;
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 690px) {
+
+    .header {
+        height: 6em;
+
+    }
+
+    .bola-header {
+
+        top: 1em;
+        height: 6em;
+
+
+    }
+
+    .trends-header {
+        position: absolute;
+        top: 1em;
+        left: 0.5em;
+        width: 8em;
+    }
+
+    .bolinhas-header {
+
+        top: 3.4em;
+        left: 7em;
+    }
+
+    .setinha-header {
+        top: 0.5em;
+        left: 39%;
+        width: 3em;
+    }
+
+    .mulher-header {
+        position: absolute;
+        top: 1.5em;
+        left: 40%;
+        width: 7em;
+        z-index: 1;
+
+    }
+
+
+    .triangulo-texto {
+
+        right: -1em;
+        width: 5em;
+
+    }
+
+    .texto {
+        font-size: 0.7em;
+
+
+    }
+
+
+    .zizzag {
+        top: 4.5em;
+        right: 0.9em;
+        width: 5em;
+    }
+
+    .fonte .linha1 {
+        width: 10em;
+    }
+
+    .fonte .linha2 {
+        width: 10em;
+    }
+
+    .fonte .linha3 {
+        width: 10em;
+    }
+}
